@@ -11,11 +11,11 @@ export default class Disp extends React.Component{
     render(){
         return(
                 <div>
-                    <h1>Check Weather</h1>
-                    <h3> Enter Your City</h3>
-                    <input type="input" id = "city_name"></input>
-                    <button onClick={getCityName}>Check</button>
-                    <div id="cityConsole"></div>
+                    <div className="jumbotron text-center"> <h1>Check Weather</h1> </div>
+                    <div className="entercity">Enter Your City</div>
+                    <div className="cityname"><input type="input" id = "city_name" className="inpclass"></input></div>
+                    <div className="buttoncss"><button onClick={getCityName} className="btn btn-success">Check</button></div>
+                        <div id="cityConsole"></div>
                 </div>
          )
     }

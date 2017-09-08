@@ -1,0 +1,24 @@
+.cityname {
+    padding-left: 250px;
+    font-size: 300%;
+
+}
+.entercity{
+    padding-top: 10px;
+    align: "center";
+    padding-bottom: 50px;
+    padding-left: 250px;
+    font-size: 500%;
+}
+
+.buttoncss{
+    padding-top: 100px;
+    align: "center";
+    padding-bottom: 50px;
+    padding-left: 400px;
+    width: 130%;
+}
+
+.inpclass {
+    padding-left: 20px;
+}

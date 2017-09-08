@@ -22472,20 +22472,34 @@ var Disp = function (_React$Component) {
                 "div",
                 null,
                 _react2.default.createElement(
-                    "h1",
-                    null,
-                    "Check Weather"
+                    "div",
+                    { className: "jumbotron text-center" },
+                    " ",
+                    _react2.default.createElement(
+                        "h1",
+                        null,
+                        "Check Weather"
+                    ),
+                    " "
                 ),
                 _react2.default.createElement(
-                    "h3",
-                    null,
-                    " Enter Your City"
+                    "div",
+                    { className: "entercity" },
+                    "Enter Your City"
                 ),
-                _react2.default.createElement("input", { type: "input", id: "city_name" }),
                 _react2.default.createElement(
-                    "button",
-                    { onClick: _script.getCityName },
-                    "Check"
+                    "div",
+                    { className: "cityname" },
+                    _react2.default.createElement("input", { type: "input", id: "city_name", className: "inpclass" })
+                ),
+                _react2.default.createElement(
+                    "div",
+                    { className: "buttoncss" },
+                    _react2.default.createElement(
+                        "button",
+                        { onClick: _script.getCityName, className: "btn btn-success" },
+                        "Check"
+                    )
                 ),
                 _react2.default.createElement("div", { id: "cityConsole" })
             );
