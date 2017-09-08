@@ -1,0 +1,14 @@
+{
+  "name": "weatherforcast",
+  "version": "1.0.0",
+  "description": "A weather forcast app by city name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Mittal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+  }
+}
