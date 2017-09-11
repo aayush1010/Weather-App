@@ -12,13 +12,25 @@
 }
 
 .buttoncss{
-    padding-top: 100px;
+    padding-top: 80px;
     align: "center";
     padding-bottom: 50px;
-    padding-left: 400px;
+    padding-left: 250px;
     width: 130%;
 }
 
 .inpclass {
     padding-left: 20px;
 }
+
+#button_css{
+
+    font-size: 230%;
+}
+
+#cityConsole{
+    float: right;
+    padding-right: 230px;
+    font-size: 150%;
+}
+

@@ -22485,7 +22485,8 @@ var Disp = function (_React$Component) {
                 _react2.default.createElement(
                     "div",
                     { className: "entercity" },
-                    "Enter Your City"
+                    "Enter Your City",
+                    _react2.default.createElement("div", { id: "cityConsole" })
                 ),
                 _react2.default.createElement(
                     "div",
@@ -22497,11 +22498,10 @@ var Disp = function (_React$Component) {
                     { className: "buttoncss" },
                     _react2.default.createElement(
                         "button",
-                        { onClick: _script.getCityName, className: "btn btn-success" },
+                        { id: "button_css", onClick: _script.getCityName, className: "btn btn-success" },
                         "Check"
                     )
-                ),
-                _react2.default.createElement("div", { id: "cityConsole" })
+                )
             );
         }
     }]);
