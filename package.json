@@ -4,16 +4,14 @@
   "description": "A weather forcast app by city name",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Aayush Mittal",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
     "express": "^4.15.4",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "webpack": "^3.5.6"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel": "^6.23.0",
